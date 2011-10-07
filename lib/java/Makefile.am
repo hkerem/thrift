@@ -21,6 +21,8 @@ EXTRA_DIST = build.xml build.properties src test
 
 export CLASSPATH
 
+export JAVA_HOME=/usr/lib/jvm/java-6-sun/
+
 all-local:
 	$(ANT) $(ANT_FLAGS)
 

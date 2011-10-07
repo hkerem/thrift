@@ -31,12 +31,13 @@ if WITH_MONO
 SUBDIRS += csharp
 endif
 
-if WITH_JAVA
-SUBDIRS += java
+# java dependencies are a little problemetic, temporarily disabling java
+# if WITH_JAVA
+# SUBDIRS += java
 # JavaScript unit test depends on java
 # so test only if java, ant & co is available
-SUBDIRS += js/test
-endif
+# SUBDIRS += js/test
+# endif
 
 if WITH_PYTHON
 SUBDIRS += py

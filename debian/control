@@ -1,0 +1,11 @@
+Source: thrift
+Section: devel
+Priority: optional
+Maintainer: H. Kerem Cevahir <kerem@mydlp.com>
+Build-Depends: debhelper (>= 5), cdbs, g++, libboost-dev, libevent-dev, python-dev, automake, libtool, pkg-config, libtool, flex, bison, sun-java6-jdk, php5-cli, erlang-nox, php5-dev
+Standards-Version: 3.8.0
+
+Package: thrift
+Architecture: any
+Depends: erlang-nox, python
+Description: Thrift is a software framework for scalable cross-language services development. It combines a software stack with a code generation engine to build services that work efficiently and seamlessly between C++, Java, Python, PHP, Ruby, Erlang, Perl, Haskell, C#, Cocoa, Smalltalk, and OCaml.
