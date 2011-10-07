@@ -10,4 +10,3 @@ debian/stamp-autotools-files:
 	./bootstrap.sh
 	touch $@
 
-
